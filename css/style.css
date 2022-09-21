@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://wallpaper.dog/large/679905.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div {
+  padding: 14px 16px;
+  text-align: center;
+}
+
+h1 {
+  padding: 14px;
+  border: 2px solid gold;
+  border-radius: 50px;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+td {
+  font-size: 18px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(80, 80, 80, 0.85);
+  color: whitesmoke;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+}
+
+table {
+  margin: 50px;
+}
+
+#a1 {
+  width: 300px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+img:hover {
+  transform: scale(1.31);
+  transition: 0.5s;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#bruh {
+  width: 200px;
+  height: 200px;
+
+  padding: 15px;
+  margin-left: 475px;
+
+  border: 3px solid greenyellow;
+  border-radius: 50%;
+
+  font-size: 30px;
+  font-weight: 700;
+
+  background-color: green;
+  color: black;
+
+  opacity: 0.2;
+  transition: 1s;
+
+  cursor: pointer;
+}
+
+#bruh:hover {
+  opacity: 1;
+  transition: 1s;
+}
